@@ -1,0 +1,27 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Output of the go coverage tool
+*.out
+
+# Hugo files
+/public/
+/resources/_gen/
+/node_modules/
+/hugo_stats.json
+
+# Go modules
+/go.sum
+/go.mod
+
+# IDE/editor specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
