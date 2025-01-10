@@ -1,3 +1,5 @@
+{{ "<!-- Include Google Fonts -->" | safeHTML }}
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;700&display=swap">
 {{ "<!-- Include headings colorise module styles -->" | safeHTML }}
 {{ $style := resources.Get "scss/headings.scss" | resources.ToCSS (dict "targetPath" "assets/css/headings.css") }}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}" media="screen">
