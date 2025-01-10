@@ -133,3 +133,6 @@ This SCSS file defines the color variables for each heading level and applies th
     ```
 
 By following these steps, you can create a Hugo module that applies custom colors to headings and automate the release process using semantic release.
+
+For more information on semantic release, refer to the [official documentation](https://semantic-release.gitbook.io/semantic-release/).
+
