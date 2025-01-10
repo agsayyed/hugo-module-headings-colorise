@@ -1,13 +1,14 @@
 {
   "name": "hugo-module-headings-colorise",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "homepage": "https://github.com/agsayyed/hugo-module-headings-colorise",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agsayyed/hugo-module-headings-colorise.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Abdul Sayyed <s.ghafoor@outlook.com>",
+  "bugs": {
+    "url": "https://github.com/agsayyed/hugo-module-headings-colorise/issues"
+  },
   "devDependencies": {}
 }
