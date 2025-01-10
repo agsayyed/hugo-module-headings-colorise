@@ -18,6 +18,7 @@ $h6-font: 'Open Sans', sans-serif;
 $heading-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 $heading-line-height: 1.2;
 $heading-padding: 0.5em 0;
+$underline-color: rgba(0, 0, 0, 0.2);
 
 // Apply colors, fonts, and enhancements to headings
 h1 {
@@ -28,6 +29,8 @@ h1 {
   line-height: $heading-line-height;
   padding: $heading-padding;
   text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-color: $underline-color;
 }
 
 h2 {
@@ -38,8 +41,11 @@ h2 {
   line-height: $heading-line-height;
   padding: $heading-padding;
   text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-color: $underline-color;
 }
 
+// Repeat for other headings
 h3 {
   color: $h3-color;
   font-family: $h3-font;
@@ -48,6 +54,8 @@ h3 {
   line-height: $heading-line-height;
   padding: $heading-padding;
   text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-color: $underline-color;
 }
 
 h4 {
@@ -58,6 +66,8 @@ h4 {
   line-height: $heading-line-height;
   padding: $heading-padding;
   text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-color: $underline-color;
 }
 
 h5 {
@@ -68,6 +78,8 @@ h5 {
   line-height: $heading-line-height;
   padding: $heading-padding;
   text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-color: $underline-color;
 }
 
 h6 {
@@ -78,4 +90,6 @@ h6 {
   line-height: $heading-line-height;
   padding: $heading-padding;
   text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-color: $underline-color;
 }
