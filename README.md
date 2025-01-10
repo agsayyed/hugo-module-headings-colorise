@@ -132,7 +132,27 @@ This SCSS file defines the color variables for each heading level and applies th
     git push origin v1.0.0
     ```
 
+---
+
+## Release Process
+
+This project uses [release-please](https://github.com/google-github-actions/release-please-action) for automated releases. The release process is triggered on every push to the `main` branch.
+
+### Setup
+
+1. Ensure you have a GitHub token stored in your repository secrets as `GH_TOKEN`.
+2. The release workflow is defined in `.github/workflows/release.yml`.
+
+### Workflow
+
+The release workflow performs the following steps:
+1. Checks out the code.
+2. Sets up Node.js.
+3. Installs dependencies.
+4. Runs release-please to create a release.
+
+For more details, refer to the [release-please documentation](https://github.com/google-github-actions/release-please-action).
+
 By following these steps, you can create a Hugo module that applies custom colors to headings and automate the release process using semantic release.
 
 For more information on semantic release, refer to the [official documentation](https://semantic-release.gitbook.io/semantic-release/).
-```
